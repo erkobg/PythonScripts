@@ -68,7 +68,7 @@ now = datetime.now()
 print("Ordering time = "+now.strftime("%H:%M"))
 now =  now + timedelta(minutes=30)
 
-subject = pizza_choosen+' , '+now.strftime("%H:%M")+', И-НОМЕР - ИМЕ 
+subject = pizza_choosen+' , '+now.strftime("%H:%M")+', И-НОМЕР - ИМЕ' 
 print("Subject = "+ subject)
 
 print("Mail To = "+ mail.To)
